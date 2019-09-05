@@ -14,7 +14,11 @@ The libs directory contains third party software:
  - Noguera's Fleiss Kappa Stability [5]: https://github.com/nogueirs/JMLR2018
 
 [1] Levina, Elizaveta, and Peter J. Bickel. "Maximum likelihood estimation of intrinsic dimension." Advances in neural information processing systems. 2005.
+
 [2] Chawla, Nitesh V., et al. "SMOTE: synthetic minority over-sampling technique." Journal of artificial intelligence research 16 (2002): 321-357.
+
 [3] Han, Hui, Wen-Yuan Wang, and Bing-Huan Mao. "Borderline-SMOTE: a new over-sampling method in imbalanced data sets learning." International conference on intelligent computing. Springer, Berlin, Heidelberg, 2005.
+
 [4] Brown, Gavin, et al. "Conditional likelihood maximisation: a unifying framework for information theoretic feature selection." Journal of machine learning research 13.Jan (2012): 27-66.
+
 [5] Nogueira, Sarah, Konstantinos Sechidis, and Gavin Brown. "On the Stability of Feature Selection Algorithms." Journal of Machine Learning Research 18 (2017): 174-1.
