@@ -3,7 +3,7 @@
 Code developed for MSc Project: Predicting the development of Psoriatic Arthritis using Feature Selection and Locally Linear Embedding
 
 The GeneticLLEToolbox directory contains code to: apply LLE, create out-of-sample extension for new samples, adaptively select the neighbourhood, and code to efficiently calculate the genetic distance in parallel. Additionally, it contains our implementation of the MLE intrinsic dimensionality estimator introduced by [1].
-All LLE code developed, is based on Matlab Toolbox for Dimensionality Reduction (https://lvdmaaten.github.io/drtoolbox/) developed by Laurens van der Maaten [2].
+All LLE code developed, is based on the Matlab Toolbox for Dimensionality Reduction (https://lvdmaaten.github.io/drtoolbox/) developed by Laurens van der Maaten [2].
 
 The Smote directoy contains our implementation of the SMOTE [3] and BorderlineSMOTE [4] algorithms
 
