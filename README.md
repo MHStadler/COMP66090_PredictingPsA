@@ -7,7 +7,7 @@ LLE code developed based on Matlab Toolbox for Dimensionality Reduction (https:/
 
 The Smote directoy contains our implementation of the SMOTE [2] and BorderlineSMOTE [3] algorithms
 
-Lastly, the ModelTraining directoy contains our code for training our models in cross validation & external validation, as well as the code for evaluation.
+Lastly, the ModelTraining directoy contains our code for feature selection and for training our models in cross validation & external validation, as well as the code for evaluation.
 
 [1] Levina, Elizaveta, and Peter J. Bickel. "Maximum likelihood estimation of intrinsic dimension." Advances in neural information processing systems. 2005.
 [2] Chawla, Nitesh V., et al. "SMOTE: synthetic minority over-sampling technique." Journal of artificial intelligence research 16 (2002): 321-357.
