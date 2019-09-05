@@ -1,0 +1,62 @@
+{
+    "FeatureSelection": {
+        "NoCVFolds": 10,
+        "Techniques": [
+            {
+                "name": "ElasticNet_v1",
+                "type": "elasticNet",
+                "params": {
+                    "alpha": [1, 0.9, 0.75, 0.5, 0.3, 0.1, 0.05]
+                }
+            },
+            {
+                "name": "InformationTheory",
+                "type": "FEAST",
+                "params": {
+                    "noFeatures": 100,
+                    "technique": ["mim", "mifs", "mrmr", "jmi", "disr", "cmim"]
+                }
+            }
+        ]
+    },
+    "ModelTraining": {
+        "noOuterFolds": 5,
+        "noInnerFolds": 3,
+        "positiveClass": 1,
+        "models": [
+            {
+                "name": "RandomForest",
+                "type": "RandomForestClassifier",
+                "use_pca": false,
+                "hyperParameters": {
+                    "RF_SIZE": 100,
+                    "RF_LS": [3, 5, 7],
+                    "RF_NP": [0.10, 0.33, 0.5, 0.8]
+                }
+            },
+            {
+                "name": "PolySvm",
+                "type": "PolynomialSvmClassifier",
+                "hyperParameters": {
+                    "C": [1, 5, 25, 100],
+                    "d": [2, 3, 4]
+                }
+            },
+            {
+                "name": "RbfSvm",
+                "type": "RbfSvmClassifier",
+                "hyperParameters": {
+                    "C": [1, 5, 10],
+                    "GAMMA": [1, 5, 10]
+                }
+            },
+            {
+                "name": "LinearSVM",
+                "type": "LinearSVMClassifier",
+                "hyperParameters": {
+                    "C": [1, 5, 25, 100]
+                }
+            }
+        ]
+    }
+}
