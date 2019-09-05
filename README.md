@@ -13,6 +13,8 @@ The libs directory contains third party software:
  - FEAST[4]: http://www.cs.man.ac.uk/~gbrown/fstoolbox/
  - Noguera's Fleiss Kappa Stability [5]: https://github.com/nogueirs/JMLR2018
 
+# References:
+
 [1] Levina, Elizaveta, and Peter J. Bickel. "Maximum likelihood estimation of intrinsic dimension." Advances in neural information processing systems. 2005.
 
 [2] Chawla, Nitesh V., et al. "SMOTE: synthetic minority over-sampling technique." Journal of artificial intelligence research 16 (2002): 321-357.
